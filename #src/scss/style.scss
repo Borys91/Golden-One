@@ -347,6 +347,11 @@ body{
       }
       &__text {
             max-width: 80%;
+            a{
+                  text-decoration: none;
+                  color: #222222;
+                  
+            }
             h4{
                   text-transform: uppercase;
             }
