@@ -1,0 +1,8 @@
+@@include("_wow.min.js");
+
+$(document).ready(function(){
+   $(".header__burger").click(function(event){
+      $(".header__burger,.header__menu").toggleClass("active")
+      $("body").toggleClass('lock')
+   })
+});
